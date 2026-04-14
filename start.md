@@ -46,7 +46,7 @@ sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.ta
 ### 4. Prevent Sleep on Lid Close (Optional)
 
 ```bash
-sudo nano /etc/systemd/logind.conf
+sudo vim /etc/systemd/logind.conf
 ```
 
 Set:
